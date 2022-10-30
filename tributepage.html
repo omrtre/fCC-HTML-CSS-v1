@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Marvelous Honu</title>
+    </head>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<style>
+    body {
+        text-align: center;
+        margin: 0;
+        font-family: Product Sans, 'Times New Roman', Times;
+        color: #00241b;
+        background-color: hsl(150, 40%, 95%);
+    }
+
+    h1 {
+        font-size: 3.5em;
+        font-family: Baloo;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-family: Futura;
+        text-decoration-line: underline;
+    }
+
+    #image {  
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px 0;
+        box-shadow: 3px 3px 10px 1px rgba(0, 36, 27, 0.5);
+    }
+
+    #main {
+        margin: 30px 15px;
+        padding: 80px;
+        border-radius: 10px;
+        background-color: hsl(158, 60%, 85%);
+    }
+
+    #img-div {
+        margin: 0;
+        padding: 30px;
+        padding-top: 50px;
+        background-color: hsl(166, 33%, 65%);
+        border-radius: 12px;
+    }
+
+    #img-caption {
+        margin: 40px 0 20px 0;
+    }
+
+    /*  .subtitle-quote {
+        color: #00241b;
+        font-style: italic;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }*/
+
+    .tribute-info-div {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    ul{
+        max-width: 550px;
+        margin: 0 auto 0 auto;
+        text-align: left;
+    }
+
+    li {
+        margin: 20px 0;
+    }
+
+    section p {
+        max-width: 800px;
+        margin: 0 auto 35px;
+        text-align: center;
+    }
+
+    blockquote {
+        margin-bottom: 40px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .tribute-title {
+        width: auto;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .floating-turtle {
+        height: auto;
+        display: block;
+        max-width: 20%;
+        position: fixed;
+        right: 95px;
+        bottom: 10px;
+        filter: drop-shadow(6px 8px 6px #62A1A7);
+        animation: float 5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0%);
+        }
+
+        50% {
+            transform: translateY(5%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+</style>
+
+    <img class="floating-turtle" src="webres/honu.png" alt="A sea turtle looking up.">
+
+    <main id="main"> 
+        
+        <div class="tribute-title">
+        <h1 id="title"><i class="fas fa-wave-square"></i> The Marvelous Honu <i class="fas fa-wave-square"></i></h1>
+        
+        <blockquote cite="https://www.nps.gov/kaho/learn/nature/upload/honu.pdf">
+            <p>"From the darkness of time came the sea turtle with its plated back."</p>
+            <cite>— Kumulipo: A Hawaiian creation chant</cite>
+        </blockquote>
+        </div>
+
+        <figure id="img-div">
+            <img id="image" src="https://www.hawaiidiscount.com/Portals/0/sea-turtle-547162_960_720.jpg" alt="A sea turtle underwater.">
+            <figcaption id="img-caption" class="subtitle-quote"><i>Look at this cute turtle! So <u>lovely</u>!</i></figcaption>
+        </figure>
+
+    <div class="tribute-info-div">
+        <section id="tribute-info">
+            <h2>About</h2>
+            <p>150 million years before the fiery birth of the Hawaiian Islands, even before there was a Pacific Ocean, the first honu (green sea turtle, Chelonia mydas) raised its head from the water to breathe. Looking into the teary eyes of a basking turtle, we are literally looking at a survivor of the age of dinosaurs. From ancient reverence and utility to modern wonder, the turtle has fed our bodies and spirits.</p>
+            <ul>
+                <li>The honu is a powerful metaphor of the connection between people, land, and ocean.</li>
+                <li>Hawaiian legend holds that the hero Aiai created honu by drawing marks upon a rock near the water turning it into a turtle.Because it is part earth, the creatures must return to land to lay their eggs. </li>
+                <li>The honu has a place in myth and legend as a messenger, a monster sent to attack enemies, a living canoe that transports lovers to each other, and even as the foundation of some of the islands. </li>
+                <li>The ancient connection between land and sea that the honu represents is still strong today.</li>
+            </ul>
+        </section>
+    </div>
+
+    <a href="https://www.nps.gov/kaho/learn/nature/upload/honu.pdf" target="_blank" id="tribute-link"><i class="fas fa-info-circle"></i> Learn more about the Hawaiian Honu!</a>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    </main> 
+
+</html>
+
