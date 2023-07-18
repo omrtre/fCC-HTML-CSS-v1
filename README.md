@@ -2,4 +2,4 @@
 
 Projects from fCC. 
 
-https://orbitalsm3ga.github.io/fCC-HTML-CSS-v1/
+https://omrtre.github.io/fCC-HTML-CSS-v1/
